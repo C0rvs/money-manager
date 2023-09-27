@@ -1,0 +1,48 @@
+
+html, body {
+    margin:0;
+    padding:0;
+    background-color: black;
+    color: white;
+}
+h1 {
+    margin:0;
+}
+
+li{
+    display: flex; 
+    justify-content: space-between;
+}
+.expense-list-amounts input[type=text]{
+    text-align: center;
+    width: 60px;
+    margin-right: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    color: white;
+    background-color: #0C0C0C;
+    
+}
+
+.expense-list-name input[type=text]{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.expense-item{
+    border-bottom: 1px solid #0C0C0C;
+}
+
+.expense-list li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid white; /* Add a 1px solid black border to the top */
+}
+
+
+

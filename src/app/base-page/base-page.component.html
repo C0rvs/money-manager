@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style=" background-color: black;">
+    <h1 style="font-style: italic; text-align: center;">Income</h1>
+    <div class="sidebar">
+        <p>Total</p>
+        <p>{{total}}</p>
+    </div>
+    <div class="expense-list">
+        <ul>
+            <li *ngFor="let expense of expenseList" class="expense-item">
+                <div class="expense-list-name">
+                    <input type="text" [(ngModel)]="expense.expense_name">
+                </div>
+                <div class="expense-list-amounts">
+                    <input type="text" [defaultValue]="expense.expense_amount" readonly>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <input type="text" id="expense-name" placeholder="New expense name" [(ngModel)]="expenseName">
+    <input type="number" id="expense-amount" placeholder="Amount spent" [(ngModel)]="expenseAmount">
+    <button (click)="addItem()">Add</button>
+</body>
+</html>

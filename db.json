@@ -1,0 +1,63 @@
+{
+  "expense_chart": [
+    {
+      "expense_chart_name": "New expense",
+      "expense_chart_id": 1,
+      "user_id": 1
+    },
+    {
+      "expense_chart_name": "New expense",
+      "expense_chart_id": 2,
+      "user_id": 2
+    }
+  ],
+  "users": [
+    {
+      "user_id": 1,
+      "user_name": "cyrus",
+      "password ": "encrypted"
+    },
+    {
+      "user_id": 2,
+      "user_name": "new cyrus2",
+      "password ": "encrypted"
+    }
+  ],
+  "list_of_expenses": [
+    {
+      "id": 1,
+      "expense_chart_id": 1,
+      "user_id": 1,
+      "expense_name": "expense name 1",
+      "expense_amount": 1500
+    },
+    {
+      "id": 2,
+      "expense_chart_id": 1,
+      "user_id": 2,
+      "expense_name": "expense name 2",
+      "expense_amount": 1700
+    },
+    {
+      "id": 2,
+      "expense_chart_id": 1,
+      "user_id": 1,
+      "expense_name": "expense name 2 with id 1",
+      "expense_amount": 1500
+    },
+    {
+      "id": 3,
+      "expense_chart_id": 1,
+      "user_id": 1,
+      "expense_name": "test",
+      "expense_amount": 123
+    },
+    {
+      "id": 4,
+      "expense_chart_id": 1,
+      "user_id": 1,
+      "expense_name": "new",
+      "expense_amount": 123
+    }
+  ]
+}
