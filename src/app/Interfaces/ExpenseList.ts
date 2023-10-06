@@ -1,7 +1,7 @@
 import { Expense } from "./Expenses";
 
 export interface ExpenseList {
-    expenseChartName: string, 
-    listOfExpenses: Expense[],
-    id: number
+    expense_chart_name: string, 
+    id: number,
+    user_id: number
 };

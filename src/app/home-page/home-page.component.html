@@ -1,1 +1,13 @@
-<p>home-page works!</p>
+<app-nav-bar></app-nav-bar>
+<div class="container">
+    <span>Expense chartts list</span>
+    <div class="list-container">
+        <button type="button" *ngFor=" let expense of expenseChartList ">
+            {{expense.expense_chart_name}}
+        </button>
+    </div>
+</div>
+
+
+
+<h1 *ngIf="expenseChartList?.length === 0">No existing expenses yet</h1>

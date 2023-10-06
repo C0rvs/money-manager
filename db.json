@@ -2,25 +2,30 @@
   "expense_chart": [
     {
       "expense_chart_name": "New expense",
-      "expense_chart_id": 1,
+      "id": 1,
       "user_id": 1
     },
     {
-      "expense_chart_name": "New expense",
-      "expense_chart_id": 2,
+      "expense_chart_name": "New expense uid 2 ",
+      "id": 2,
       "user_id": 2
+    },
+    {
+      "expense_chart_name": "test expense udi 1",
+      "id": 3,
+      "user_id": 1
     }
   ],
   "users": [
     {
       "user_id": 1,
       "user_name": "cyrus",
-      "password ": "encrypted"
+      "user_password": "encrypted"
     },
     {
       "user_id": 2,
       "user_name": "new cyrus2",
-      "password ": "encrypted"
+      "user_password": "encrypted"
     }
   ],
   "list_of_expenses": [
